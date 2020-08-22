@@ -33,7 +33,7 @@ const comecar = async( ) => {
 // ESPERA A NOVA PAGINA DO NAVEGADOR
     const pagina = await navegador.newPage()
 // FAZENDO CONEXÃO COM A PAGINA
-    await pagina.goto('https://www.instagram.com/p/CChMVvQgYKK/')
+    await pagina.goto('https://www.instagram.com/p/CBrQ4tzBWYQ/')
 // CARREGANDO A PAGINA A PARTIR DO CLICK DO BOTÃO
     await carregaMais(pagina,'.dCJp8')
 // PEGAN O COMENTARIO NA TAG ESPECIFICADA
